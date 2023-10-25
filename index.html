@@ -11,12 +11,14 @@
   <body>
     <h1>Your Name Here</h1>
     <div>
-      <p>
-        This is a bunch of information about myself. I'm from here and there and
+      <h2 class="info">This is a bunch of information about myself. I'm from here and there and
         discovered my love of programming when this happened. When I'm not
-        working I'm busy doing this and that.
-      </p>
+        working I'm busy doing this and that.</h2>
     </div>
+     
+        
+      
+    
 
     <img src="./assets/avatar-gfe7eab2c5_640.png" alt="Profile photo" />
 
@@ -24,47 +26,59 @@
       <h2>Here are some of my Skills!</h2>
 
       <h3 class="languages">Languages</h3>
-      <ul>
-        <li>JavaScript</li>
-        <li>SQL</li>
-        <li>HTML5</li>
-        <li>CSS3</li>
-      </ul>
+      <div >
+        <ul class="container">
+          <li  class="lang" >JavaScript</li>
+          <li  class="lang">SQL</li>
+          <li  class="lang">HTML5</li>
+          <li  class="lang">CSS3</li>
+        </ul>
+      </div>
+   
 
-      <h3>Libraries</h3>
-      <ul class="libraries">
-        <li>React</li>
-        <li>Node</li>
-        <li>Bootstrap</li>
+
+    
+      <div>
+      <h3 class="libraries">Libraries</h3>
+      <ul class="container">
+        <li class="lib">React</li>
+        <li class="lib">Node</li>
       </ul>
     </div>
-
-    <div>
+<div>
+  <ul>
+    <li class="libs">Bootstrap</li>
+  </ul>
+</div>
+    
+    
+    
+    
       <h2>Hardest Bug So Far</h2>
-      <p>
-        My hardest bug I ever came across was this infinite loop I couldn't
-        escape.
-      </p>
-      <p>I came up with a totally sick solution though by doing ...</p>
+      
+        <h2 class="info">My hardest bug I ever came across was this infinite loop I couldn't
+          escape.</h2>
+      
+      <h2 class="info">I came up with a totally sick solution though by doing ...</h2>
     </div>
 
-    <ul class="links">
-      <li><a href="#">github link</a></li>
-      <li><a href="#">LinkedIn link</a></li>
-      <li><a href="#">Angel list link</a></li>
-      <li><a href="#">Pursuit link</a></li>
+    <ul class="link">
+      <li class="links"><a href="#">github link</a></li>
+      <li class="links"><a href="#">LinkedIn link</a></li>
+      <li class="links"><a href="#">Angel list link</a></li>
+      <li class="links"><a href="#">Pursuit link</a></li>
     </ul>
 
     <footer>
       <h2>Contact Me</h2>
       <div>
-        <h4>Email me at:</h4>
+        <h2 class="info">Email me at:</h2>
         <a href="#" target="_top">hello@pursuit.org</a>
       </div>
-      <form>
+      <form class="form">
         <label>Provide feedback:</label>
         <input type="text" name="" value="" />
-        <input type="submit" name="submit" value="submit" />
+        <input  type="submit" name="submit" value="submit" />
       </form>
     </footer>
   </body>
