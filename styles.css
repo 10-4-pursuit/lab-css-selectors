@@ -1,4 +1,49 @@
 /* Write your CSS below. */
+h1{
+  color: #CDC369;
+  padding: 20px;
+}
+.intro p {
+font-style: none;
+}
+
+h2 {
+  color: #CDC369;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+.languages li{
+  list-style-type: none;
+  text-align: center;
+  width: 330px;
+  height: 80px;
+  margin: 2em;
+  padding: 2em;
+  border: 1px solid #104E6E;
+  border-radius: 10px;
+  background-color: #CDC369;
+  font-weight: bold;
+  color: #104E6E;
+}
+
+.libraries li{
+  list-style-type: none;
+  text-align: center;
+  width: 330px;
+  height: 80px;
+  margin: 2em;
+  padding: 2em;
+  border: 1px solid #104E6E;
+  border-radius: 10px;
+  background-color: #CDC369;
+  font-weight: bold;
+  color: #104E6E;
+}
+
+
 
 /* Do not change any CSS below this line. */
 
