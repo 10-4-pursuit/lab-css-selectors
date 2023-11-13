@@ -279,13 +279,13 @@ div.h2.title-container {
   border: 0px;
   background-color: #cfd680; 
   padding: 20px 30px; 
-  margin:10px; 
+  margin: 30px; 
   border-radius: 5px;
   display: inline-block;
   cursor: pointer; 
   box-shadow:#394d61;
   box-shadow: var(--dark-box-shadowing);
-  width: 20%;
+  width: 12%;
   text-align: center;
   font-size: small ;
   
@@ -312,10 +312,10 @@ div.library-container {
   border: 0px solid #000; 
   background-color: #245e86; 
   color: white;
-  padding: 20px 40px; 
+  padding: 20px 20px; 
   margin:20px; 
   display: inline-block;
-  width: 35%;
+  width: 30%;
   text-align: center;
   font-size: small;
   border-radius: 5px;
@@ -355,31 +355,17 @@ footer form input[type="submit"] {
   margin-bottom: 10px; 
 }
 
-ul.li.link-containers {
-  border: 0px solid #000; 
-  background-color: #245e86; 
+ul.links li.link-containers {
+  
+  background-color: #aebb85; 
   color: white;
-  padding: 20px 40px; 
+  padding: 20px 4px; 
   margin:20px; 
   display: inline-block;
-  width: 35%;
+  width: 10%;
   text-align: center;
   font-size: small;
   border-radius: 5px;
   cursor: pointer;
   box-shadow: var(--dark-box-shadowing);
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
