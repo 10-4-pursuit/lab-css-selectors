@@ -9,8 +9,8 @@
     <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
   </head>
   <body>
-    <h1>Your Name Here</h1>
-    <div>
+    <h1 class="name">Your Name Here</h1>
+    <div class="style">
       <p>
         This is a bunch of information about myself. I'm from here and there and
         discovered my love of programming when this happened. When I'm not
@@ -20,52 +20,62 @@
 
     <img src="./assets/avatar-gfe7eab2c5_640.png" alt="Profile photo" />
 
-    <div>
-      <h2>Here are some of my Skills!</h2>
+    <div class="style">
+      <h2 class="header">Here are some of my Skills!</h2>
 
       <h3 class="languages">Languages</h3>
       <ul>
-        <li>JavaScript</li>
-        <li>SQL</li>
-        <li>HTML5</li>
-        <li>CSS3</li>
+        <li class="javascript language">JavaScript</li>
+        <li class="sql language">SQL</li>
+        <li class="html language">HTML5</li>
+        <li class="css language">CSS3</li>
       </ul>
 
-      <h3>Libraries</h3>
-      <ul class="libraries">
-        <li>React</li>
-        <li>Node</li>
-        <li>Bootstrap</li>
+      <h3 class="libraries">Libraries</h3>
+      <ul>
+        <li class="react library">React</li>
+        <li class="node library">Node</li>
+        <li class="bootstrap library">Bootstrap</li>
       </ul>
     </div>
 
-    <div>
-      <h2>Hardest Bug So Far</h2>
-      <p>
+    <div class="style">
+      <h2 class="header">Hardest Bug So Far</h2>
+      <p class="padding">
         My hardest bug I ever came across was this infinite loop I couldn't
         escape.
       </p>
-      <p>I came up with a totally sick solution though by doing ...</p>
+      <p class="padding">
+        I came up with a totally sick solution though by doing ...
+      </p>
     </div>
 
-    <ul class="links">
-      <li><a href="#">github link</a></li>
-      <li><a href="#">LinkedIn link</a></li>
-      <li><a href="#">Angel list link</a></li>
-      <li><a href="#">Pursuit link</a></li>
+    <ul class="style">
+      <li class="links padding">
+        <a href="https://github.com">github link</a>
+      </li>
+      <li class="links padding">
+        <a href="https://linkedin.com">LinkedIn link</a>
+      </li>
+      <li class="links padding">
+        <a href="https://angellist.com">Angel list link</a>
+      </li>
+      <li class="links padding">
+        <a href="https://Pursuit.com">Pursuit link</a>
+      </li>
     </ul>
 
     <footer>
-      <h2>Contact Me</h2>
-      <div>
+      <div class="style">
+        <h2 class="header padding">Contact Me</h2>
         <h4>Email me at:</h4>
-        <a href="#" target="_top">hello@pursuit.org</a>
+        <a class="spacing" href="#" target="_top">hello@pursuit.org</a>
+        <form>
+          <label class="spacing">Provide feedback:</label>
+          <input type="text" name="" value="" />
+          <input type="submit" name="submit" value="submit" />
+        </form>
       </div>
-      <form>
-        <label>Provide feedback:</label>
-        <input type="text" name="" value="" />
-        <input type="submit" name="submit" value="submit" />
-      </form>
     </footer>
   </body>
 </html>
