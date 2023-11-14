@@ -201,20 +201,16 @@ img {
   
 }
 
-p {
-  padding: 0; 
-  box-shadow: none;
-  border: 1px;
-  text-align: left;
-  
-}
+
 
 p.bio-container {
   color: #f9f9f9;
   font-family: sans-serif;
   font-weight: lighter;
   text-shadow: none;
-  height: 50px;
+  height: 20px;
+  text-align: left;
+  padding: 20px
 }
 
 
@@ -228,11 +224,12 @@ div {
   height: 250px; 
 }
 
-h2 {
+h2.title-container {
   font-family: Arial, Helvetica, sans-serif;
   font-size: .9em;
-  color: #cfd680;
+  color: #d6d7c4;
   font-weight: bold;
+ 
 }
 
 h3 {
@@ -278,8 +275,8 @@ div.h2.title-container {
 .language {
   border: 0px;
   background-color: #cfd680; 
-  padding: 20px 30px; 
-  margin: 30px; 
+  padding: 20px 80px; 
+  margin: 20px; 
   border-radius: 5px;
   display: inline-block;
   cursor: pointer; 
@@ -288,6 +285,7 @@ div.h2.title-container {
   width: 12%;
   text-align: center;
   font-size: small ;
+  color: blue
   
 }
 
@@ -308,30 +306,16 @@ div.library-container {
  
 }
 
-.library-container ul li.library {
-  border: 0px solid #000; 
-  background-color: #245e86; 
-  color: white;
-  padding: 20px 20px; 
-  margin:20px; 
-  display: inline-block;
-  width: 30%;
-  text-align: center;
-  font-size: small;
-  border-radius: 5px;
-  cursor: pointer;
-  box-shadow: var(--dark-box-shadowing)
 
-}
 
-h3.language-container {
+h3.section-container {
   text-decoration: underline;
   color:#91a9cf;
   font-weight: bold;
 }
 
 
-.title-container {
+h2.title-container {
   font-weight: bold; 
 }
 
@@ -357,7 +341,7 @@ footer form input[type="submit"] {
 
 ul.links li.link-containers {
   
-  background-color: #aebb85; 
+  background-color: #cfd680; 
   color: white;
   padding: 20px 4px; 
   margin:20px; 
@@ -368,4 +352,58 @@ ul.links li.link-containers {
   border-radius: 5px;
   cursor: pointer;
   box-shadow: var(--dark-box-shadowing);
+}
+
+
+div.languages-full-container {
+
+  height: 320px;
+}
+
+h3.libraries {
+  display: block;
+  font-size: .9em;
+  text-decoration: underline;
+
+}
+
+.full-library-container ul li.library {
+  border: 0px solid #000; 
+  background-color: #245e86; 
+  color: white;
+  padding: 20px 20px; 
+  margin:20px; 
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  font-size: small;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: var(--dark-box-shadowing)
+
+}
+
+p {
+    height: 10px;
+    padding: 10px; 
+    box-shadow: none;
+    border: 0px;
+    text-align: left;
+    font-weight: lighter;
+    text-shadow: 0px 0px
+    
+  
+}
+
+.link-containers a {
+  color: #fff;
+  text-decoration: none; 
+}
+
+h4.email {
+  color:whitesmoke
+}
+
+a {
+  color:whitesmoke
 }
