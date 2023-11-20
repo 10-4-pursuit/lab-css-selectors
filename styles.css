@@ -1,4 +1,184 @@
 /* Write your CSS below. */
+/* Styling for the about me section */
+.about-me {
+  color: #333;
+  text-align: center;
+  font-weight: 400;
+  margin: 20px 0;
+}
+
+/* Styling for the skills section */
+.skill-section {
+  margin: 20px 0;
+}
+
+.languages {
+  margin-bottom: 10px;
+}
+
+.languages li,
+.libraries li {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 0 5px;
+  border-radius: 5px;
+  background-color: #eee;
+}
+
+/* Styling for the hardest bug section */
+.hardest-bug {
+  margin: 20px 0;
+}
+
+.hardest-bug p {
+  margin-bottom: 10px;
+}
+
+/* Styling for the links section */
+.links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.links li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.links li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Styling for the footer section */
+footer {
+  text-align: center;
+  margin: 20px 0;
+}
+
+footer h2 {
+  margin-bottom: 10px;
+}
+
+footer .contact-info {
+  margin-bottom: 10px;
+}
+
+footer .contact-info a {
+  text-decoration: none;
+  color: #333;
+}
+
+footer form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+footer form input[type="text"] {
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+footer form input[type="submit"] {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+
+/* Styling for the about me section */
+.about-me {
+  color: #333;
+  text-align: center;
+  font-weight: 400;
+  margin: 20px 0;
+}
+
+/* Styling for the skills section */
+.skill-section {
+  margin: 20px 0;
+}
+
+.languages {
+  margin-bottom: 10px;
+}
+
+.languages li,
+.libraries li {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 0 5px;
+  border-radius: 5px;
+  background-color: #eee;
+}
+
+/* Styling for the hardest bug section */
+.hardest-bug {
+  margin: 20px 0;
+}
+
+.hardest-bug p {
+  margin-bottom: 10px;
+}
+
+/* Styling for the links section */
+.links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.links li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.links li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Styling for the footer section */
+footer {
+  text-align: center;
+  margin: 20px 0;
+}
+
+footer h2 {
+  margin-bottom: 10px;
+}
+
+footer .contact-info {
+  margin-bottom: 10px;
+}
+
+footer .contact-info a {
+  text-decoration: none;
+  color: #333;
+}
+
+footer form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+footer form input[type="text"] {
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+footer form input[type="submit"] {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
 
 /* Do not change any CSS below this line. */
 
