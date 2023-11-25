@@ -18,12 +18,12 @@ body {
   text-align: center;
   text-shadow: 1px 1px #eeeab4;
  }
- 
-p {
-  list-style-type: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+
+ul {
+ list-style-type: none;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
 }
 
 p {
