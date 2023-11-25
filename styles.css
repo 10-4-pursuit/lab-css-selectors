@@ -12,15 +12,13 @@
   --light-slate: #a8bace;
 }
 
-p {
+body {
   color: var(--soft-white);
-}
-
-p {
-  color: var(--old-brass);
   font-size: 3em;
+  text-align: center;
   text-shadow: 1px 1px #eeeab4;
-}
+ }
+ 
 p {
   list-style-type: none;
   display: flex;
@@ -57,7 +55,7 @@ p {
 }
 
 p {
-  width: 10%;
+  width: 60%;
 }
 
 p {
